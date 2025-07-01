@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puram Sri Ranga - Software Developer Resume</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io/favicon-16x16.png">
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: #fff;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            color: #2c3e50;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .header .title {
+            font-size: 18px;
+            color: #34495e;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            font-size: 12px;
+            color: #555;
+            line-height: 1.5;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+            page-break-inside: avoid;
+        }
+        
+        .section h2 {
+            color: #2c3e50;
+            font-size: 16px;
+            font-weight: bold;
+            text-transform: uppercase;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            letter-spacing: 1px;
+        }
+        
+        .section h3 {
+            color: #34495e;
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 8px;
+            margin-top: 15px;
+        }
+        
+        .section h3:first-child {
+            margin-top: 0;
+        }
+        
+        .section p, .section li {
+            font-size: 12px;
+            margin-bottom: 6px;
+            text-align: justify;
+        }
+        
+        .section ul {
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .section li {
+            margin-bottom: 4px;
+        }
+        
+        .project-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 5px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 13px;
+        }
+        
+        .project-role {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 12px;
+        }
+        
+        .technologies {
+            font-style: italic;
+            color: #555;
+            font-size: 11px;
+            margin-bottom: 8px;
+        }
+        
+        .github-link {
+            font-weight: bold;
+            color: #3498db;
+            font-size: 11px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+        
+        .skill-category {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 12px;
+        }
+        
+        .skill-list {
+            font-size: 12px;
+            color: #555;
+        }
+        
+        .education-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }
+        
+        .education-title {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 13px;
+        }
+        
+        .education-details {
+            font-size: 12px;
+            color: #555;
+            margin-bottom: 8px;
+        }
+        
+        .download-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            z-index: 1000;
+        }
+        
+        .download-btn:hover {
+            background: #2980b9;
+        }
+        
+        @media print {
+            body {
+                padding: 0;
+                margin: 0;
+            }
+            
+            .download-btn {
+                display: none;
+            }
+            
+            .section {
+                page-break-inside: avoid;
+            }
+        }
+    </style>
+</head>
+<body>
+    <button class="download-btn" onclick="downloadPDF()">Download PDF</button>
+    
+    <div class="header">
+        <h1>PURAM SRI RANGA</h1>
+        <div class="title">Software Developer</div>
+        <div class="contact-info">
+            <strong>Email:</strong> srirangapuram.817@gmail.com | <strong>Mobile:</strong> +91 9989389598<br>
+            <strong>GitHub:</strong> <a href="https://github.com/Sri-Ranga9989">github.com/Sri-Ranga9989</a> | <strong>LeetCode:</strong> <a href="https://leetcode.com/u/SriRanga2002/">leetcode.com/u/SriRanga2002</a><br>
+            <strong>Location:</strong> Hyderabad, Telangana
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Professional Summary</h2>
+        <p>Recent Computer Science Engineering graduate with hands-on experience in full-stack web development, AI/ML projects, and API integrations. Proficient in JavaScript, Python, and Node.js with demonstrated ability to build end-to-end applications. Strong problem-solving skills with leadership experience in organizing technical events and founding coding communities. Seeking a software development internship to contribute to innovative projects while expanding technical expertise.</p>
+    </div>
+
+    <div class="section">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">Programming Languages:</div>
+            <div class="skill-list">Python, JavaScript, Java, C</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">Web Technologies:</div>
+            <div class="skill-list">HTML5, CSS3, Bootstrap, EJS</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">Frameworks & Libraries:</div>
+            <div class="skill-list">Node.js, Express.js, Flask</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">Database Technologies:</div>
+            <div class="skill-list">PostgreSQL, MongoDB</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">Authentication & Security:</div>
+            <div class="skill-list">Passport.js, bcrypt, OAuth 2.0, Session Management</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">Tools & Technologies:</div>
+            <div class="skill-list">Git, GitHub, VS Code, Postman</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">APIs & Integration:</div>
+            <div class="skill-list">REST APIs, Axios, OpenWeatherMap, Google OAuth</div>
+        </div>
+        <div class="skills-grid">
+            <div class="skill-category">AI/ML:</div>
+            <div class="skill-list">CNN, OpenCV, TensorFlow</div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education-header">
+            <div class="education-title">Bachelor of Technology in Computer Science Engineering</div>
+        </div>
+        <div class="education-details">St. Peter's Engineering College, JNTUH | 2019 - 2023 | CGPA: 7.78/10</div>
+        <p><strong>Relevant Coursework:</strong> Data Structures & Algorithms, Machine Learning, Database Management Systems, Computer Networks, Software Engineering, Object-Oriented Programming, Web Technologies</p>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        
+        <div class="project-header">
+            <div class="project-title">Secrets - Anonymous Secret Sharing Platform</div>
+            <div class="project-role">Full-Stack Developer</div>
+        </div>
+        <div class="technologies">Technologies: Node.js, Express.js, PostgreSQL, Passport.js, EJS, bcrypt, OAuth 2.0</div>
+        <ul>
+            <li>Developed secure web application for anonymous secret sharing with dual authentication system</li>
+            <li>Implemented local authentication with bcrypt password hashing and Google OAuth 2.0 integration</li>
+            <li>Built comprehensive user management system with session-based authentication using Passport.js</li>
+            <li>Designed PostgreSQL database schema with secure data storage and retrieval mechanisms</li>
+            <li>Created responsive user interface with EJS templating and protected route middleware</li>
+            <li>Applied security best practices including SQL injection prevention and environment variable management</li>
+        </ul>
+        <div class="github-link">GitHub: <a href="https://github.com/Sri-Ranga9989/Secrets">github.com/Sri-Ranga9989/Secrets</a></div>
+
+        <div class="project-header" style="margin-top: 15px;">
+            <div class="project-title">Smart Planner Web Application</div>
+            <div class="project-role">Full-Stack Developer</div>
+        </div>
+        <div class="technologies">Technologies: Node.js, Express.js, EJS, JavaScript, HTML5, CSS3, Axios, REST APIs</div>
+        <ul>
+            <li>Developed responsive full-stack web application for weekend and holiday planning with real-time weather integration</li>
+            <li>Integrated 4+ public APIs (OpenWeatherMap, Calendarific) with robust error handling</li>
+            <li>Implemented custom weekend algorithm for dynamic date batching across any month/year</li>
+            <li>Enhanced UX with AJAX-powered updates eliminating page reloads</li>
+            <li>Applied modular coding standards with middleware and static asset management</li>
+        </ul>
+        <div class="github-link">GitHub: <a href="https://github.com/Sri-Ranga9989/Weekend_Long">github.com/Sri-Ranga9989/Weekend_Long</a></div>
+
+        <div class="project-header" style="margin-top: 15px;">
+            <div class="project-title">Japanese Vocabulary Management Tool</div>
+            <div class="project-role">Full-Stack JavaScript Developer</div>
+        </div>
+        <div class="technologies">Technologies: Node.js, JSON, ES6, File System API, Spaced Repetition Algorithm</div>
+        <ul>
+            <li>Built modular vocabulary management system for Japanese language learners using spaced repetition methodology</li>
+            <li>Implemented Leitner system for spaced repetition with automatic word promotion/demotion</li>
+            <li>Designed JSON-based storage with efficient retrieval and categorization</li>
+            <li>Secured configuration using environment variables and best practices</li>
+            <li>Created extensible architecture ready for web/mobile integration</li>
+        </ul>
+        <div class="github-link">GitHub: <a href="https://github.com/Sri-Ranga9989/JapaneseFlashCards">github.com/Sri-Ranga9989/JapaneseFlashCards</a></div>
+
+        <div class="project-header" style="margin-top: 15px;">
+            <div class="project-title">AI-Based Crop Disease Detection System</div>
+            <div class="project-role">AI/ML Developer</div>
+        </div>
+        <div class="technologies">Technologies: Python, CNN, TensorFlow, Flask, HTML, Google Colab</div>
+        <ul>
+            <li>Developed deep learning system for plant disease classification achieving high accuracy across 39 disease categories</li>
+            <li>Utilized PlantVillage dataset and CNN architecture for image classification</li>
+            <li>Deployed model using Flask with user-friendly web interface</li>
+            <li>Achieved high accuracy in classifying leaf images into distinct disease categories</li>
+        </ul>
+
+        <div class="project-header" style="margin-top: 15px;">
+            <div class="project-title">Real-Time Number Plate Detection System</div>
+            <div class="project-role">Computer Vision Developer</div>
+        </div>
+        <div class="technologies">Technologies: Python, OpenCV, Haar Cascade, Image Processing</div>
+        <ul>
+            <li>Built robust real-time license plate recognition system with advanced image processing capabilities</li>
+            <li>Implemented Haar Cascade for accurate plate detection from video streams</li>
+            <li>Applied advanced image processing techniques for text extraction</li>
+            <li>Optimized for real-time performance with diverse input sources</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <ul>
+            <li>Programming, Data Structures and Algorithms Using Python - NPTEL</li>
+            <li>Cloud Computing - NPTEL</li>
+            <li>Database Management System - NPTEL</li>
+            <li>Data Analysis and Market Estimations - TRI</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Leadership & Achievements</h2>
+        <ul>
+            <li><strong>Founder, Coding Club:</strong> Established college coding club providing platform for 100+ students to learn and collaborate on programming projects</li>
+            <li><strong>Event Organizer:</strong> Organized SPECATHON (National Level Hackathon) and Aquila project presentation events</li>
+            <li><strong>Content Writing Team Lead:</strong> Led content creation team for college radio station, managing written content for various shows and promotions</li>
+        </ul>
+        <p><strong>Languages:</strong> English, Japanese, Hindi, Telugu</p>
+    </div>
+
+    <script>
+        function downloadPDF() {
+            // Hide the download button before printing
+            const downloadBtn = document.querySelector('.download-btn');
+            downloadBtn.style.display = 'none';
+            
+            // Use window.print() which will open the print dialog
+            // Users can then save as PDF
+            window.print();
+            
+            // Show the button again after printing
+            setTimeout(() => {
+                downloadBtn.style.display = 'block';
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
